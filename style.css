@@ -20,7 +20,7 @@ main {
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap: 1.7rem;
-  max-width: 1440px;
+  width: 70%;
 }
 .cards {
   padding: 2rem;
@@ -83,8 +83,12 @@ img {
 .attribution {
   text-align: center;
 }
-
-@media (max-width:760px){
+@media  only screen and  (min-width:1100px) and (max-width:1500px){
+    .wrapper{
+        width:90%;
+    }
+} 
+@media (max-width:1099px){
     body{
         height: 100%;
     }
